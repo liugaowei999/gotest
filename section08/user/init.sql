@@ -1,10 +1,3 @@
-create schema if not exists customer;
-create table if not exists customer.user
-(
-    id         bigint auto_increment
-        primary key,
-    username   varchar(100)                        not null,
-    password   varchar(100)                        not null,
-    email      varchar(100)                        not null,
-    created_at timestamp default CURRENT_TIMESTAMP not null
-);
+version https://git-lfs.github.com/spec/v1
+oid sha256:230dc8619ab0933f6d27a3141a5ceec225def3bd18b22db6b2feb870f809e015
+size 395
