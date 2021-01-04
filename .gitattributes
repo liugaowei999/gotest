@@ -1,0 +1,1 @@
+section08/user/init.sql filter=lfs diff=lfs merge=lfs -text
